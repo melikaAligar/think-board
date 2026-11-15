@@ -1,0 +1,15 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+}
