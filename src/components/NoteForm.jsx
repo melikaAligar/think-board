@@ -41,7 +41,7 @@ function NoteForm({
           type="text"
           value={title}
           onChange={(event) => onTitleChange(event.target.value)}
-          placeholder="عنوان یادداشت را وارد کن"
+          placeholder="عنوان یادداشت را وارد کنید"
           maxLength={100}
           required
           className="mb-5 w-full rounded-2xl border border-pink-100 bg-[#FFFAFC] px-4 py-3 text-right outline-none transition focus:border-violet-300 focus:ring-2 focus:ring-violet-100"
@@ -58,7 +58,7 @@ function NoteForm({
         <textarea
           value={content}
           onChange={(event) => onContentChange(event.target.value)}
-          placeholder="متن یادداشت را وارد کن"
+          placeholder="متن یادداشت را وارد کنید"
           rows={6}
           maxLength={100}
           required
